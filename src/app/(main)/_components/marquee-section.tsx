@@ -33,7 +33,7 @@ export function InfiniteMarquee({ className }: MarqueeProps) {
   useEffect(() => {
     if (!isHovered && marqueeRef.current) {
       const marquee = marqueeRef.current;
-      let scrollAmount = 1;
+      const scrollAmount = 1;
       let animationFrame: number;
 
       const scrollMarquee = () => {
