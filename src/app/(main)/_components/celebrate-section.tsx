@@ -31,10 +31,10 @@ export function CelebrateSection() {
             <div className="flex justify-center items-center gap-10">
               <FadeIn>
                 <div className="max-w-md">
-                  <h2 className="mb-6 text-4xl font-normal leading-tight tracking-tight text-gray-900 lg:text-6xl">
+                  <h2 className="mb-6 text-4xl font-light leading-tight tracking-tight text-gray-900 lg:text-6xl">
                     Celebrate and inspire
                   </h2>
-                  <p className="mb-8 text-lg leading-relaxed text-gray-600">
+                  <p className="mb-8 text-lg leading-relaxed text-grey-darker">
                     Elevate your space with the award-winning messaging display,
                     crafted to celebrate and inspire your favorite people.
                   </p>

@@ -1,7 +1,10 @@
 import { CelebrateSection } from "./_components/celebrate-section";
 import { HeroBanner } from "./_components/hero-section";
+import { InspireSection } from "./_components/inspire-section";
 import { InfiniteMarquee } from "./_components/marquee-section";
 import { NewsroomSection } from "./_components/newsroom-section";
+import { SpecSheetForm } from "./_components/spec-sheet-form";
+import { VestaboardWhiteSection } from "./_components/vestaboard-white-section";
 
 export default function Home() {
   return (
@@ -9,6 +12,9 @@ export default function Home() {
       <HeroBanner />
       <InfiniteMarquee />
       <CelebrateSection />
+      <VestaboardWhiteSection />
+      <InspireSection />
+      <SpecSheetForm />
       <NewsroomSection />
     </main>
   );
