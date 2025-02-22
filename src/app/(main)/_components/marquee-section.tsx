@@ -74,7 +74,7 @@ export function InfiniteMarquee({ className }: MarqueeProps) {
       )}
     >
       <div>
-        <div className="flex items-center gap-8 w-1/2">
+        <div className="flex items-center gap-8 lg:w-1/2">
           <span className="text-sm text-grey-darker whitespace-nowrap">
             As seen in
           </span>
