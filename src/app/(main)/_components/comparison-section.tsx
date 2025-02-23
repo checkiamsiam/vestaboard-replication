@@ -21,7 +21,7 @@ export default function ComparisonSection() {
               The best of analog and digital
             </h1>
             <p className="text-lg md:text-2xl text-grey-main max-w-3xl mx-auto font-light">
-              It's not a digital screen. 8,448 magical spinning flaps you
+              It&apos;s not a digital screen. 8,448 magical spinning flaps you
               control with your device from anywhere.
             </p>
           </div>
@@ -102,7 +102,7 @@ export default function ComparisonSection() {
               </h2>
               <p className="text-grey-darker mb-5 font-light">
                 Built with the highest quality, vetted materials. Designed by a
-                seasoned team of experts, it’s beautiful inside and out.
+                seasoned team of experts, it&apos;s beautiful inside and out.
               </p>
 
               <NextMoveLink
