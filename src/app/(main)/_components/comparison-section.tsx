@@ -12,7 +12,7 @@ export default function ComparisonSection() {
     setIsClient(true);
   }, []);
   return (
-    <div className="bg-primary py-20 px-5">
+    <div className="bg-primary py-20 px-5  lg:pb-96">
       <section className=" flex items-center justify-center ">
         <div className="max-w-6xl mx-auto w-full">
           {/* Heading Section */}

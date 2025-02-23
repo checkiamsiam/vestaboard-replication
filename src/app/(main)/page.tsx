@@ -1,5 +1,6 @@
 import { CelebrateSection } from "./_components/celebrate-section";
 import ComparisonSection from "./_components/comparison-section";
+import CustomerSection from "./_components/customers-section";
 import { HeroBanner } from "./_components/hero-section";
 import { InspireSection } from "./_components/inspire-section";
 import { InfiniteMarquee } from "./_components/marquee-section";
@@ -17,6 +18,7 @@ export default function Home() {
       <InspireSection />
       <SpecSheetForm />
       <ComparisonSection />
+      <CustomerSection />
       <NewsroomSection />
     </main>
   );

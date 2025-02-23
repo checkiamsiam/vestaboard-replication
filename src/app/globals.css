@@ -41,3 +41,12 @@ body {
 }
 
 @layer base {}
+
+
+.hidden-left {
+  width: 300px;
+  height: 100px;
+  background: lightblue;
+  mask-image: linear-gradient(to right, transparent 0%, black 50%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 50%);
+}
