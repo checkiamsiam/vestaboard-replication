@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export function InspireSection() {
   return (
-    <section className="lg:pt-40 pt-10 bg-foreground">
+    <section className="lg:pt-40 py-10 lg:py-0 bg-foreground">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
-        <div className="sm:grid sm:grid-cols-2 mb-16">
-          <h2 className="mb-4 text-4xl font-light tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">
+        <div className="md:grid md:grid-cols-2 md:gap-20 mb-16">
+          <h2 className="mb-4 text-3xl md:font-light font-bold max-md:text-center  tracking-tight text-background md:text-5xl lg:text-6xl ">
             Inspire your favorite people from anywhere
           </h2>
           <div className="flex justify-end items-center">
-            <p className="text-lg  lg:max-w-sm">
+            <p className="lg:text-lg  leading-relaxed text-background font-light lg:max-w-sm max-md:text-center">
               Vestaboard creates a focal point that enhances any setting every
               day and captures attention with a shared messaging experience.
             </p>
@@ -19,18 +19,20 @@ export function InspireSection() {
 
         <div className="grid gap-10 sm:grid-cols-2">
           {/* At Home Card */}
-          <div className="group relative overflow-hidden rounded-2xl bg-gray-50 transition-all hover:shadow-lg">
+          <div className="group relative overflow-hidden rounded-2xl bg-secondary transition-all hover:shadow-lg">
             <div className="aspect-square relative">
               <Image
-                src="/placeholder.svg"
+                src="https://www.vestaboard.com/hubfs/athome.jpg"
                 alt="Vestaboard display in a modern home setting"
                 fill
                 className="object-cover"
               />
             </div>
-            <div className="p-10 flex max-md:flex-col">
+            <div className="md:p-10 p-5 flex max-md:flex-col">
               <div className="md:w-2/3">
-                <h3 className="mb-2 text-4xl font-light ">At Home</h3>
+                <h3 className="mb-2 md:text-4xl text-3xl md:font-light font-bold  ">
+                  At Home
+                </h3>
                 <p className="text-lg font-light">
                   Art, organization and inspiration in a single frame.
                 </p>
@@ -46,19 +48,21 @@ export function InspireSection() {
             </div>
           </div>
           {/* At Work Card */}
-          <div className="group relative overflow-hidden rounded-2xl bg-gray-50 transition-all hover:shadow-lg">
+          <div className="group relative overflow-hidden rounded-2xl bg-secondary transition-all hover:shadow-lg">
             <div className="aspect-square relative">
               <Image
-                src="/placeholder.svg"
+                src="https://www.vestaboard.com/hubfs/vestaboard%20at%20work.jpg"
                 alt="Vestaboard display in a modern home setting"
                 fill
                 className="object-cover"
               />
             </div>
-            <div className="p-10 flex max-md:flex-col">
+            <div className="md:p-10 p-5 flex max-md:flex-col">
               <div className="md:w-2/3">
-                <h3 className="mb-2 text-4xl font-light ">At Work</h3>
-                <p className="text-lg font-light">
+                <h3 className="mb-2 md:text-4xl text-3xl md:font-light font-bold  ">
+                  At Work
+                </h3>
+                <p className="text-lg font-light ">
                   Inform and inspire the people that move your business.
                 </p>
               </div>

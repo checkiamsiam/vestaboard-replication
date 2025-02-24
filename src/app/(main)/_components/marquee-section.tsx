@@ -2,8 +2,8 @@
 
 import { cn } from "@/lib/utils";
 import useEmblaCarousel from "embla-carousel-react";
-import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
+import { BrandingSign } from "./branding-sign";
 
 interface MarqueeProps {
   className?: string;
@@ -23,11 +23,31 @@ export function InfiniteMarquee({ className }: MarqueeProps) {
   );
 
   const logos = [
-    { src: "/placeholder.svg", alt: "BoingBoing" },
-    { src: "/placeholder.svg", alt: "The Wall Street Journal" },
-    { src: "/placeholder.svg", alt: "Rolling Stone" },
-    { src: "/placeholder.svg", alt: "The Week" },
-    { src: "/placeholder.svg", alt: "Design" },
+    {
+      src: "https://www.vestaboard.com/hubfs/Group%2016%20Copy%202.svg",
+      alt: "BoingBoing",
+    },
+    {
+      src: "https://www.vestaboard.com/hubfs/Group.svg",
+      alt: "The Wall Street Journal",
+    },
+    {
+      src: "https://www.vestaboard.com/hubfs/Group%202.svg",
+      alt: "Rolling Stone",
+    },
+    { src: "https://www.vestaboard.com/hubfs/Group%203.svg", alt: "The Week" },
+    {
+      src: "https://www.vestaboard.com/hubfs/logo-theweek%20black-01.svg",
+      alt: "Design",
+    },
+    {
+      src: "https://www.vestaboard.com/hubfs/Shape%202.svg",
+      alt: "Design",
+    },
+    {
+      src: "https://www.vestaboard.com/hubfs/wsj-wordmark.svg",
+      alt: "Design",
+    },
   ];
 
   useEffect(() => {
@@ -91,10 +111,7 @@ export function InfiniteMarquee({ className }: MarqueeProps) {
               )}
             >
               {[...logos, ...logos].map((logo, index) => (
-                <div
-                  key={index}
-                  className="flex-[0_0_auto] min-w-[120px] opacity-60 transition-opacity duration-200 hover:opacity-100"
-                >
+                <div key={index} className="flex-[0_0_auto]">
                   <img
                     src={logo.src || "/placeholder.svg"}
                     alt={logo.alt}
@@ -106,15 +123,8 @@ export function InfiniteMarquee({ className }: MarqueeProps) {
           </div>
         </div>
       </div>
-      <div className="flex justify-end ">
-        <div>
-          <Image
-            src="https://www.vestaboard.com/hs-fs/hubfs/Assets/photos/FastCompany_300-min.png"
-            alt="Placeholder"
-            width={180}
-            height={180}
-          />
-        </div>
+      <div className="flex justify-end max-lg:hidden ">
+        <BrandingSign />
       </div>
     </div>
   );

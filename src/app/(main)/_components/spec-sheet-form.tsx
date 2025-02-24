@@ -45,7 +45,7 @@ export function SpecSheetForm() {
                 Download our latest specification sheet for Vestaboard.
               </p>
             </div>
-            <div className="flex">
+            <div className="sm:flex">
               <Form {...form}>
                 <form
                   onSubmit={form.handleSubmit(onSubmit)}
@@ -100,7 +100,7 @@ export function SpecSheetForm() {
 
                   <Button
                     type="submit"
-                    className="h-12 bg-foreground text-primary hover:bg-grey-main font-light"
+                    className="h-12 bg-foreground text-primary hover:bg-grey-main font-light max-sm:w-full"
                   >
                     Download
                   </Button>

@@ -10,14 +10,14 @@ export function CelebrateSection() {
           <div className="w-full lg:w-1/2 lg:absolute lg:left-0 lg:top-0 lg:bottom-0 ">
             <div className="h-full">
               <Image
-                src="/placeholder.svg"
+                src="https://www.vestaboard.com/hubfs/VB-BlackFriday-Email6-SMaraboli%20(1).jpg"
                 alt="Vestaboard displaying an inspirational message in a modern living room"
                 className="rounded-xl overflow-hidden lg:hidden"
                 width={800}
                 height={800}
               />
               <Image
-                src="/placeholder.svg"
+                src="https://www.vestaboard.com/hubfs/VB-BlackFriday-Email6-SMaraboli%20(1).jpg"
                 alt="Vestaboard displaying an inspirational message in a modern living room"
                 fill
                 className="object-cover rounded-xl overflow-hidden max-lg:hidden"
@@ -31,10 +31,10 @@ export function CelebrateSection() {
             <div className="flex justify-center items-center gap-10">
               <FadeIn>
                 <div className="max-w-md">
-                  <h2 className="mb-6 text-4xl font-light leading-tight tracking-tight text-gray-900 lg:text-6xl">
+                  <h2 className="mb-6 text-3xl lg:font-light font-bold leading-tight tracking-tight text-background lg:text-6xl ">
                     Celebrate and inspire
                   </h2>
-                  <p className="mb-8 text-lg leading-relaxed text-grey-darker">
+                  <p className="mb-8 text-lg leading-relaxed text-background font-light">
                     Elevate your space with the award-winning messaging display,
                     crafted to celebrate and inspire your favorite people.
                   </p>

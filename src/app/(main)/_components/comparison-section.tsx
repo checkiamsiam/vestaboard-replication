@@ -12,28 +12,28 @@ export default function ComparisonSection() {
     setIsClient(true);
   }, []);
   return (
-    <div className="bg-primary py-20 px-5  lg:pb-96">
+    <div className="bg-primary py-20 sm:px-5  pb-96 ">
       <section className=" flex items-center justify-center ">
         <div className="max-w-6xl mx-auto w-full">
           {/* Heading Section */}
-          <div className="text-center mb-16">
-            <h1 className="sm:text-4xl md:text-5xl text-3xl font-light text-foreground mb-6">
+          <div className="text-center mb-16 max-sm:px-5">
+            <h1 className="sm:text-4xl md:text-5xl text-3xl md:font-light font-bold text-foreground mb-6">
               The best of analog and digital
             </h1>
-            <p className="text-lg md:text-2xl text-grey-main max-w-3xl mx-auto font-light">
+            <p className="text-lg md:text-2xl text-foreground max-w-3xl mx-auto font-light">
               It&apos;s not a digital screen. 8,448 magical spinning flaps you
               control with your device from anywhere.
             </p>
           </div>
 
           {/* Cards Section */}
-          <div className="max-w-6xl mx-auto flex sm:flex-row flex-col-reverse justify-center">
+          <div className="max-w-6xl mx-auto flex sm:flex-row flex-col justify-center">
             {/* Left Card */}
-            <Card className="z-10 bg-secondary p-8 sm:p-12 sm:pr-28 py-20 max-w-md max-sm:mx-auto">
-              <h2 className="text-2xl md:text-4xl font-light mb-4">
+            <Card className="z-10 bg-secondary p-8 sm:p-12 sm:pr-28 py-20 sm:max-w-md max-sm:mx-auto max-sm:rounded-none">
+              <h2 className="text-3xl md:text-4xl font-light mb-4">
                 Controlled from your phone or desktop
               </h2>
-              <p className="text-grey-darker mb-8 font-light">
+              <p className="text-background mb-8 font-light">
                 Inspire others, display lists, menus, quotes, patterns, or
                 connect to hundreds of services for automated content*.
               </p>
@@ -56,7 +56,7 @@ export default function ComparisonSection() {
             </Card>
 
             {/* Right Video Card */}
-            <Card className="max-w-sm my-5 border-none rounded-2xl overflow-hidden sm:-ml-20  max-sm:mx-auto  z-30">
+            <Card className="sm:max-w-sm sm:my-5 border-none rounded-2xl overflow-hidden sm:-ml-20 max-sm:mx-auto max-sm:w-full max-sm:h-auto z-30 max-sm:-mt-5">
               {!isClient ? (
                 <img
                   src="/placeholder.svg"
@@ -85,9 +85,9 @@ export default function ComparisonSection() {
       <section className="flex items-center justify-center mt-20">
         <div className="max-w-6xl mx-auto w-full">
           {/* Cards Section */}
-          <div className="max-w-6xl mx-auto flex sm:flex-row flex-col justify-center items-center">
+          <div className="max-w-6xl mx-auto flex sm:flex-row flex-col-reverse justify-center items-center">
             {/* Left Card */}
-            <div className="sm:-mr-40  max-sm:mx-auto  z-30">
+            <div className="sm:-mr-40 max-sm:-mt-12  max-sm:mx-auto  z-30">
               <img
                 src="https://www.vestaboard.com/hubfs/vb-bit-persp.png"
                 alt="Loading..."
@@ -96,7 +96,7 @@ export default function ComparisonSection() {
             </div>
 
             {/* Right Video Card */}
-            <Card className="z-10 bg-secondary p-8 sm:p-12 sm:py-32 sm:pl-20 py-20 max-w-md max-sm:mx-auto">
+            <Card className="z-10 bg-secondary p-8 sm:p-12 sm:py-32 sm:pl-20 py-20 max-w-md max-sm:mx-auto max-sm:rounded-none">
               <h2 className="text-2xl md:text-4xl font-light mb-4">
                 Award-winning product design
               </h2>
