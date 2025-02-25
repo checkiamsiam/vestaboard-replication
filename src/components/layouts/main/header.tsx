@@ -1,7 +1,7 @@
 "use client";
 
-import useClickOutside from "@/app/hooks/use-click-outside";
-import { useScrollTransparency } from "@/app/hooks/use-scroll-transparency";
+import useClickOutside from "@/hooks/use-click-outside";
+import { useScrollTransparency } from "@/hooks/use-scroll-transparency";
 import { Logo } from "@/components/common/logo";
 import { ShopNowButton } from "@/components/common/shop-now-button";
 import { Button } from "@/components/ui/button";
