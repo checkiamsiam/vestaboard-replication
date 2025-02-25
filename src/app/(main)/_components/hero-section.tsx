@@ -23,10 +23,12 @@ export function HeroBanner() {
         <div className="xl:px-36 md:px-20  px-5 flex items-center lg:min-h-[70vh] max-lg:py-36 max-sm:py-20 lg:w-1/2">
           <div className="lg:max-w-[640px]">
             <h1 className="mb-5 text-3xl font-light leading-tight text-white md:text-5xl lg:text-[54px] ">
-              Meet the most beautiful messaging display
+              Meet the future of mixology
             </h1>
             <p className="mb-6 md:text-2xl text-lg text-foreground font-light">
-              Delight your family, guests or team with your Vestaboard.
+              From the first sip to the final drop, Elyxm sets the standard for
+              what a cocktail experience should be—Expertly Crafted and
+              Flawlessly Poured
             </p>
             <div className="flex flex-wrap gap-8">
               <NextMoveLink href="#" className="max-sm:text-xs">
@@ -39,7 +41,6 @@ export function HeroBanner() {
               </NextMoveLink>
             </div>
           </div>
-          
         </div>
 
         {/* Right Video */}
@@ -59,10 +60,7 @@ export function HeroBanner() {
               className="h-full w-full object-cover"
               poster="/placeholder.svg"
             >
-              <source
-                src="https://1984131.fs1.hubspotusercontent-na1.net/hubfs/1984131/30s-4k-16x9-Inhouse-adjusted-2.mp4"
-                type="video/mp4"
-              />
+              <source src="/video/hero-video.mp4" type="video/mp4" />
             </video>
           )}
           <button
@@ -84,7 +82,7 @@ export function HeroBanner() {
       <ModalVideo
         channel="custom"
         isOpen={showVideo}
-        url="/html/video-player.html"
+        url="/video/hero-video.mp4"
         onClose={() => setShowVideo(false)}
       />
     </section>

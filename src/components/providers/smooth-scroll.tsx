@@ -6,7 +6,7 @@ import { useEffect } from "react";
 const SmoothScroll = () => {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.5,
+      duration: 1.2,
       easing: (t) => 1 - Math.pow(1 - t, 4),
       gestureOrientation: "vertical",
       wheelMultiplier: 1,

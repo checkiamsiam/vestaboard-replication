@@ -33,13 +33,15 @@ export function VestaboardWhiteSection() {
                 <FadeIn>
                   <div className="max-w-md">
                     <h2 className="mb-6 text-3xl lg:font-light font-bold leading-tight tracking-tight text-background lg:text-6xl ">
-                      Vestaboard White
+                      Elyxm “Flow”: The Event Experience
                     </h2>
                     <p className="mb-8 lg:text-lg  leading-relaxed text-background font-light">
-                      Brighten your day with Vestaboard White. Inspire family,
-                      team members, or guests by easily sending messages from
-                      anywhere with a fresh take on the award-winning messaging
-                      display.
+                      Imagine your event transformed by precision mixology that
+                      brings every cocktail to life in real time. Whether you're
+                      organizing a concert, festival, conference, or
+                      high-profile gathering, enjoy an immersive celebration
+                      where each drink elevates your experience and creates
+                      unforgettable moments.
                     </p>
                     <NextMoveLink
                       href="#"

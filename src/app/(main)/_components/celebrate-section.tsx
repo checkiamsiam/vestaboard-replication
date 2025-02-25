@@ -32,11 +32,14 @@ export function CelebrateSection() {
               <FadeIn>
                 <div className="max-w-md">
                   <h2 className="mb-6 text-3xl lg:font-light font-bold leading-tight tracking-tight text-background lg:text-6xl ">
-                    Celebrate and inspire
+                    Smart Sips: The Cocktail Revolution
                   </h2>
                   <p className="mb-8 text-lg leading-relaxed text-background font-light">
-                    Elevate your space with the award-winning messaging display,
-                    crafted to celebrate and inspire your favorite people.
+                    With 1/16th-of-an-ounce precision, 5-second pours, and a
+                    curated menu of over 250 cocktail options sourced from
+                    mixologists around the world, we serve up bespoke drink
+                    experiences—each pour uniquely tailored and powered by
+                    real-time data and innovative machine learning.
                   </p>
                   <NextMoveLink
                     href="#"
