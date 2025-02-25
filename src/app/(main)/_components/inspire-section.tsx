@@ -43,7 +43,7 @@ export function InspireSection() {
           <div className="flex justify-end items-center">
             <p className="lg:text-lg  leading-relaxed text-background font-light lg:max-w-sm max-md:text-center">
               Elyxm Flow revolutionizes mixology for events at scale—whether
-              you're energizing a festival or curating a tailored luxury
+              you&apos;re energizing a festival or curating a tailored luxury
               celebration. With our blend of advanced technology and masterful
               craftsmanship, you serve consistently exceptional cocktails that
               captivate guests and streamline event operations.
