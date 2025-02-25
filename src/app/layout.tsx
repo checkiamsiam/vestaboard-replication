@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import type React from "react";
 
+import SmoothScroll from "@/components/providers/smooth-scroll";
 import "./globals.css";
 
 // Roboto font integration
@@ -25,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-smooth ${roboto.variable}`}>
       <body className={`font-sans antialiased ${roboto.variable}`}>
+        <SmoothScroll />
         {children}
       </body>
     </html>

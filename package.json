@@ -24,7 +24,7 @@
     "embla-carousel-react": "^8.5.2",
     "framer-motion": "^12.4.7",
     "hamburger-react": "^2.5.2",
-    "locomotive-scroll": "^4.1.4",
+    "lenis": "^1.1.21",
     "lucide-react": "^0.475.0",
     "next": "15.1.7",
     "npx": "^10.2.2",
@@ -39,7 +39,6 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@types/locomotive-scroll": "^4.1.4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

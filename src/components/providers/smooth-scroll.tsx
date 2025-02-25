@@ -1,32 +1,30 @@
 "use client";
-import LocomotiveScroll from "locomotive-scroll";
-import { useEffect, useRef } from "react";
 
-export default function SmoothScroll({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  const scrollRef = useRef<HTMLDivElement>(null);
+import Lenis from "lenis";
+import { useEffect } from "react";
 
+const SmoothScroll = () => {
   useEffect(() => {
-    if (typeof window !== "undefined" && scrollRef.current) {
-      const locoScroll = new LocomotiveScroll({
-        el: scrollRef.current,
-        smooth: true,
-      });
+    const lenis = new Lenis({
+      duration: 1.5,
+      easing: (t) => 1 - Math.pow(1 - t, 4),
+      gestureOrientation: "vertical",
+      wheelMultiplier: 1,
+      touchMultiplier: 1,
+      infinite: false,
+    });
 
-      locoScroll.update();
+    const raf = (time: any) => {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    };
 
-      return () => {
-        locoScroll.destroy();
-      };
-    }
+    requestAnimationFrame(raf);
+
+    return () => lenis.destroy(); // Cleanup on unmount
   }, []);
 
-  return (
-    <div ref={scrollRef} style={{ overflow: "hidden" }}>
-      {children}
-    </div>
-  );
-}
+  return null; // No UI component needed
+};
+
+export default SmoothScroll;
