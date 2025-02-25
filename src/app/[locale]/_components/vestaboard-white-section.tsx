@@ -37,8 +37,8 @@ export function VestaboardWhiteSection() {
                     </h2>
                     <p className="mb-8 lg:text-lg  leading-relaxed text-background font-light">
                       Imagine your event transformed by precision mixology that
-                      brings every cocktail to life in real time. Whether you're
-                      organizing a concert, festival, conference, or
+                      brings every cocktail to life in real time. Whether
+                      you&apos;re organizing a concert, festival, conference, or
                       high-profile gathering, enjoy an immersive celebration
                       where each drink elevates your experience and creates
                       unforgettable moments.
