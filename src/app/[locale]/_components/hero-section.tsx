@@ -25,10 +25,7 @@ export function HeroBanner() {
         <div className="xl:px-36 md:px-20  px-5 flex items-center lg:min-h-[70vh] max-lg:py-36 max-sm:py-20 lg:w-1/2">
           <div className="lg:max-w-[640px]">
             <h1 className="mb-5 text-3xl font-light leading-tight text-white md:text-5xl lg:text-[54px] ">{t("title")}</h1>
-            <p className="mb-6 md:text-2xl text-lg text-foreground font-light">
-              From the first sip to the final drop, Elyxm sets the standard for what a cocktail experience should be—Expertly Crafted and
-              Flawlessly Poured
-            </p>
+            <p className="mb-6 md:text-2xl text-lg text-foreground font-light">{t("description")}</p>
             <div className="flex flex-wrap gap-8">
               <NextMoveLink href="#" className="max-sm:text-xs">
                 {" "}

@@ -1,5 +1,83 @@
 {
   "section_1": {
-    "title": "Conoce el futuro de la mixología"
+    "title": "Conoce el futuro de la mixología",
+    "description": "Desde el primer sorbo hasta la última gota, Elyxm establece el estándar de lo que debe ser una experiencia de cócteles: elaborados con maestría y servidos a la perfección."
+  },
+  "section_2": {
+    "title": "Smart Sips – La Revolución del Cóctel",
+    "description": "Con una precisión de 1/16 de onza, vertidos en 5 segundos y un menú curado de más de 250 opciones de cócteles, provenientes de mixólogos de todo el mundo, ofrecemos experiencias de bebida a medida. Cada vertido se adapta de forma única y se potencia con datos en tiempo real y aprendizaje automático innovador."
+  },
+  "section_3": {
+    "title": "Elyxm “Flow”: La Experiencia para Eventos",
+    "description": "Imagina tu evento transformado por una mixología de precisión que da vida a cada cóctel en tiempo real. Ya sea que organices un concierto, festival, conferencia o un evento exclusivo, disfruta de una celebración inmersiva donde cada bebida eleva tu experiencia y crea momentos inolvidables."
+  },
+  "section_4": {
+    "title": "Elyxm Flow en Acción",
+    "description": "Elyxm Flow revoluciona la mixología en eventos a gran escala—ya sea que estés animando un festival o creando una celebración de lujo personalizada. Gracias a la combinación de tecnología avanzada y artesanía experta, sirves cócteles excepcionalmente consistentes que cautivan a los invitados y facilitan la organización del evento.",
+    "card_1": {
+      "title": "Conciertos y Festivales",
+      "description": "Sirve a grandes multitudes de manera rápida sin sacrificar la calidad. Nuestro enfoque tecnológico garantiza vertidos consistentemente perfectos, incluso en los escenarios más grandes."
+    },
+    "card_2": {
+      "title": "Bodas y Celebraciones",
+      "description": "Crea una experiencia de bebidas inolvidable que refleje la elegancia y exclusividad de tu evento. Cada detalle, desde el perfil de sabores hasta la presentación, se elabora meticulosamente."
+    },
+    "card_3": {
+      "title": "Marcas Líderes de Licores",
+      "description": "Muestra tu portafolio en eventos de primer nivel. Con Elyxm Flow, cada vertido refleja la identidad de tu marca, garantizando una impresión constante y de alto impacto en los asistentes."
+    },
+    "card_4": {
+      "title": "Corporativos y Conferencias",
+      "description": "Eleva las sesiones de networking y los eventos after-office con cócteles elaborados con precisión que dejan una impresión duradera, perfectos para potenciar la participación y la reputación de la marca."
+    }
+  },
+  "section_6": {
+    "title": "Control en Tiempo Real, al Alcance de Tu Mano",
+    "description": "Controla tu servicio de cócteles desde cualquier dispositivo.",
+    "features": [
+      {
+        "title": "Métricas en Tiempo Real",
+        "description": "Rastrea cada vertido, monitorea el inventario y supervisa el rendimiento con datos actualizados al instante."
+      },
+      {
+        "title": "Coordinación sin Esfuerzo",
+        "description": "Se sincroniza perfectamente con nuestros sistemas en el lugar para mantener un servicio constante y eficiente."
+      },
+      {
+        "title": "Interfaz Intuitiva",
+        "description": "Diseñada para aprender en minutos y ofrecer información detallada."
+      },
+      {
+        "title": "Decisiones Basadas en Datos",
+        "description": "Detecta tendencias, optimiza tu oferta y reduce el desperdicio con análisis accionables."
+      }
+    ],
+    "conclusion": "Con la App Web Móvil de Elyxm, tienes todo lo necesario para ofrecer un evento excepcional, sin complicaciones."
+  },
+  "section_7": {
+    "title": "Conoce a Nuestros Clientes Pioneros",
+    "description": "Estos colaboradores pioneros en República Dominicana están ayudando a dar forma al futuro de Elyxm al integrar nuestro sistema en escenarios reales.",
+    "clients": [
+      {
+        "name": "GastroMarket",
+        "challenge": "Su mixología interna necesitaba una forma de experimentar con recetas innovadoras de cócteles adaptadas a un menú dinámico, sin sacrificar la calidad ni la consistencia cuando el mixólogo no estaba presente.",
+        "solution": "Al combinar nuestra avanzada tecnología de dispensado con una robusta biblioteca de recetas, GastroMarket puede introducir sin esfuerzo nuevos cócteles de tendencia a gran escala, asegurando que cada bebida mantenga el mismo alto estándar, incluso en ausencia del mixólogo."
+      },
+      {
+        "name": "Santo Pecado Events and Concerts",
+        "challenge": "Ofrecer una experiencia de bar de alta gama y personalizada durante conciertos internos, con bebidas diseñadas para cada artista y público.",
+        "solution": "Colaboramos en menús específicos para cada evento, aprovechando la precisión de Elyxm para servir bebidas personalizadas que reflejen la atmósfera del concierto, haciendo que cada invitado se sienta parte del espectáculo."
+      },
+      {
+        "name": "Monica Varela Store Events",
+        "challenge": "Crear una experiencia de bebidas distintiva y alineada con la marca que complemente colecciones de joyería únicas.",
+        "solution": "Las recetas personalizables de Elyxm permiten a Monica Varela emparejar cócteles exclusivos con sus diseños, realzando los eventos en tienda a través de la sinergia entre el sabor y la estética."
+      },
+      {
+        "name": "Cielo Events and Concerts",
+        "challenge": "Ofrecer cócteles de calidad en un ambiente ruidoso y de estilo club, que previamente limitaba las opciones de bebidas.",
+        "solution": "Nuestro sistema optimizado opera de manera rápida y eficiente, permitiendo a Cielo ampliar su menú desde opciones básicas hasta una oferta completa de cócteles, sin incrementar la complejidad ni los tiempos de espera."
+      }
+    ]
   }
 }
