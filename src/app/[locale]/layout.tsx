@@ -1,11 +1,11 @@
 import MainFooter from "@/components/layouts/main/footer";
 import { MainHeader } from "@/components/layouts/main/header";
-import { Roboto } from "next/font/google";
-import type React from "react";
 import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { Roboto } from "next/font/google";
 import { notFound } from "next/navigation";
+import type React from "react";
 
 // Roboto font integration
 const roboto = Roboto({

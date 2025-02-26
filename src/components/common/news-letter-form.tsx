@@ -17,6 +17,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { sendEmail } from "@/lib/send-email";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
@@ -48,8 +49,25 @@ export function NewsletterForm() {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    // Here you would typically send the form data to your API
-    console.log(values);
+    try {
+      const emailContent = `
+      <p>First Name: ${values.firstName}</p>
+      <p>Last Name: ${values.lastName}</p>
+      <p>Email: ${values.email}</p>
+      <p>Country: ${values.country}</p>
+      <p>Interest: ${values.interest.join(", ")}</p>
+    `;
+
+      const response = await sendEmail({
+        from: "onboarding@resend.dev",
+        to: "issiam02415@gmail.com",
+        subject: "Newsletter Signup",
+        html: emailContent,
+      });
+      console.log(response);
+    } catch (error) {
+      console.log(error);
+    }
   }
   return (
     <Form {...form}>
