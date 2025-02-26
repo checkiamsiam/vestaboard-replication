@@ -1,8 +1,10 @@
 import FadeIn from "@/components/animation/fade-in";
 import { NextMoveLink } from "@/components/ui/next-move-link";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export function VestaboardWhiteSection() {
+  const t = useTranslations("section_3");
   return (
     <div className="lg:pt-20 max-lg:pt-10 bg-secondary lg:-mb-20 max-lg:pb-10">
       <div className="lg:relative  max-lg:mb-10 lg:min-h-[70vh]">
@@ -33,21 +35,10 @@ export function VestaboardWhiteSection() {
                 <FadeIn>
                   <div className="max-w-md">
                     <h2 className="mb-6 text-3xl lg:font-light font-bold leading-tight tracking-tight text-background lg:text-6xl ">
-                      Elyxm “Flow”: The Event Experience
+                      {t("title")}
                     </h2>
-                    <p className="mb-8 lg:text-lg  leading-relaxed text-background font-light">
-                      Imagine your event transformed by precision mixology that
-                      brings every cocktail to life in real time. Whether
-                      you&apos;re organizing a concert, festival, conference, or
-                      high-profile gathering, enjoy an immersive celebration
-                      where each drink elevates your experience and creates
-                      unforgettable moments.
-                    </p>
-                    <NextMoveLink
-                      href="#"
-                      className="text-background"
-                      textClassName="border-background"
-                    >
+                    <p className="mb-8 lg:text-lg  leading-relaxed text-background font-light">{t("description")}</p>
+                    <NextMoveLink href="#" className="text-background" textClassName="border-background">
                       Learn More
                     </NextMoveLink>
                   </div>

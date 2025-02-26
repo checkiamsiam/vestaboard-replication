@@ -1,8 +1,10 @@
 import FadeIn from "@/components/animation/fade-in";
 import { NextMoveLink } from "@/components/ui/next-move-link";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export function CelebrateSection() {
+  const t = useTranslations("section_2");
   return (
     <div className="lg:relative  max-lg:mb-10 lg:min-h-[60vh] lg:my-20 max-lg:mt-10">
       <div className="container mx-auto px-4">
@@ -32,20 +34,10 @@ export function CelebrateSection() {
               <FadeIn>
                 <div className="max-w-md">
                   <h2 className="mb-6 text-3xl lg:font-light font-bold leading-tight tracking-tight text-background lg:text-6xl ">
-                    Smart Sips: The Cocktail Revolution
+                    {t("title")}
                   </h2>
-                  <p className="mb-8 text-lg leading-relaxed text-background font-light">
-                    With 1/16th-of-an-ounce precision, 5-second pours, and a
-                    curated menu of over 250 cocktail options sourced from
-                    mixologists around the world, we serve up bespoke drink
-                    experiences—each pour uniquely tailored and powered by
-                    real-time data and innovative machine learning.
-                  </p>
-                  <NextMoveLink
-                    href="#"
-                    className="text-background"
-                    textClassName="border-background"
-                  >
+                  <p className="mb-8 text-lg leading-relaxed text-background font-light">{t("description")}</p>
+                  <NextMoveLink href="#" className="text-background" textClassName="border-background">
                     Shop Now
                   </NextMoveLink>
                 </div>

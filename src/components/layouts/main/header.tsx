@@ -1,7 +1,7 @@
 "use client";
 
-import useClickOutside from "@/app/hooks/use-click-outside";
-import { useScrollTransparency } from "@/app/hooks/use-scroll-transparency";
+import useClickOutside from "@/hooks/use-click-outside";
+import { useScrollTransparency } from "@/hooks/use-scroll-transparency";
 import { Logo } from "@/components/common/logo";
 import { ShopNowButton } from "@/components/common/shop-now-button";
 import { Button } from "@/components/ui/button";
@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import { Squeeze as Hamburger } from "hamburger-react";
 import { useRef, useState } from "react";
 import { MainNavigationInDrawer } from "./main-navigation";
+import LanguageSwitch from "./language-switch";
 
 export function MainHeader() {
   const drawerRef = useRef(null);
@@ -52,8 +53,9 @@ export function MainHeader() {
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: !open ? 1 : 0, y: !open ? 0 : -10 }}
               transition={{ duration: 0.3 }}
-              className="max-sm:hidden"
+              className="max-sm:hidden flex gap-4 items-center"
             >
+              <LanguageSwitch/>
               <ShopNowButton />
             </motion.div>
           </div>
