@@ -1,11 +1,7 @@
 import MainFooter from "@/components/layouts/main/footer";
 import { MainHeader } from "@/components/layouts/main/header";
-
 import { Roboto } from "next/font/google";
 import type React from "react";
-
-import SmoothScroll from "@/components/providers/smooth-scroll";
-
 import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -19,7 +15,13 @@ const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
 });
 
-export default async function LocaleLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
   const locale = (await params).locale;
   if (!routing.locales.includes(locale as any)) {
     notFound();
@@ -30,7 +32,6 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     <html lang={locale} className="scroll-smooth">
       <body className={`font-sans antialiased ${roboto.variable}`}>
         <NextIntlClientProvider messages={messages}>
-          <SmoothScroll />
           <MainHeader />
           {children}
           <MainFooter />
