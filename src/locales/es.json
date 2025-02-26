@@ -34,50 +34,47 @@
   "section_6": {
     "title": "Control en Tiempo Real, al Alcance de Tu Mano",
     "description": "Controla tu servicio de cócteles desde cualquier dispositivo.",
-    "features": [
-      {
-        "title": "Métricas en Tiempo Real",
-        "description": "Rastrea cada vertido, monitorea el inventario y supervisa el rendimiento con datos actualizados al instante."
-      },
-      {
-        "title": "Coordinación sin Esfuerzo",
-        "description": "Se sincroniza perfectamente con nuestros sistemas en el lugar para mantener un servicio constante y eficiente."
-      },
-      {
-        "title": "Interfaz Intuitiva",
-        "description": "Diseñada para aprender en minutos y ofrecer información detallada."
-      },
-      {
-        "title": "Decisiones Basadas en Datos",
-        "description": "Detecta tendencias, optimiza tu oferta y reduce el desperdicio con análisis accionables."
-      }
-    ],
+
+    "feature_1": {
+      "title": "Métricas en Tiempo Real",
+      "description": "Rastrea cada vertido, monitorea el inventario y supervisa el rendimiento con datos actualizados al instante."
+    },
+    "feature_2": {
+      "title": "Coordinación sin Esfuerzo",
+      "description": "Se sincroniza perfectamente con nuestros sistemas en el lugar para mantener un servicio constante y eficiente."
+    },
+    "feature_3": {
+      "title": "Interfaz Intuitiva",
+      "description": "Diseñada para aprender en minutos y ofrecer información detallada."
+    },
+    "feature_4": {
+      "title": "Decisiones Basadas en Datos",
+      "description": "Detecta tendencias, optimiza tu oferta y reduce el desperdicio con análisis accionables."
+    },
     "conclusion": "Con la App Web Móvil de Elyxm, tienes todo lo necesario para ofrecer un evento excepcional, sin complicaciones."
   },
   "section_7": {
     "title": "Conoce a Nuestros Clientes Pioneros",
     "description": "Estos colaboradores pioneros en República Dominicana están ayudando a dar forma al futuro de Elyxm al integrar nuestro sistema en escenarios reales.",
-    "clients": [
-      {
-        "name": "GastroMarket",
-        "challenge": "Su mixología interna necesitaba una forma de experimentar con recetas innovadoras de cócteles adaptadas a un menú dinámico, sin sacrificar la calidad ni la consistencia cuando el mixólogo no estaba presente.",
-        "solution": "Al combinar nuestra avanzada tecnología de dispensado con una robusta biblioteca de recetas, GastroMarket puede introducir sin esfuerzo nuevos cócteles de tendencia a gran escala, asegurando que cada bebida mantenga el mismo alto estándar, incluso en ausencia del mixólogo."
-      },
-      {
-        "name": "Santo Pecado Events and Concerts",
-        "challenge": "Ofrecer una experiencia de bar de alta gama y personalizada durante conciertos internos, con bebidas diseñadas para cada artista y público.",
-        "solution": "Colaboramos en menús específicos para cada evento, aprovechando la precisión de Elyxm para servir bebidas personalizadas que reflejen la atmósfera del concierto, haciendo que cada invitado se sienta parte del espectáculo."
-      },
-      {
-        "name": "Monica Varela Store Events",
-        "challenge": "Crear una experiencia de bebidas distintiva y alineada con la marca que complemente colecciones de joyería únicas.",
-        "solution": "Las recetas personalizables de Elyxm permiten a Monica Varela emparejar cócteles exclusivos con sus diseños, realzando los eventos en tienda a través de la sinergia entre el sabor y la estética."
-      },
-      {
-        "name": "Cielo Events and Concerts",
-        "challenge": "Ofrecer cócteles de calidad en un ambiente ruidoso y de estilo club, que previamente limitaba las opciones de bebidas.",
-        "solution": "Nuestro sistema optimizado opera de manera rápida y eficiente, permitiendo a Cielo ampliar su menú desde opciones básicas hasta una oferta completa de cócteles, sin incrementar la complejidad ni los tiempos de espera."
-      }
-    ]
+    "client_1": {
+      "name": "GastroMarket",
+      "challenge": "Su mixología interna necesitaba una forma de experimentar con recetas innovadoras de cócteles adaptadas a un menú dinámico, sin sacrificar la calidad ni la consistencia cuando el mixólogo no estaba presente.",
+      "solution": "Al combinar nuestra avanzada tecnología de dispensado con una robusta biblioteca de recetas, GastroMarket puede introducir sin esfuerzo nuevos cócteles de tendencia a gran escala, asegurando que cada bebida mantenga el mismo alto estándar, incluso en ausencia del mixólogo."
+    },
+    "client_2": {
+      "name": "Santo Pecado Events and Concerts",
+      "challenge": "Ofrecer una experiencia de bar de alta gama y personalizada durante conciertos internos, con bebidas diseñadas para cada artista y público.",
+      "solution": "Colaboramos en menús específicos para cada evento, aprovechando la precisión de Elyxm para servir bebidas personalizadas que reflejen la atmósfera del concierto, haciendo que cada invitado se sienta parte del espectáculo."
+    },
+    "client_3": {
+      "name": "Monica Varela Store Events",
+      "challenge": "Crear una experiencia de bebidas distintiva y alineada con la marca que complemente colecciones de joyería únicas.",
+      "solution": "Las recetas personalizables de Elyxm permiten a Monica Varela emparejar cócteles exclusivos con sus diseños, realzando los eventos en tienda a través de la sinergia entre el sabor y la estética."
+    },
+    "client_4": {
+      "name": "Cielo Events and Concerts",
+      "challenge": "Ofrecer cócteles de calidad en un ambiente ruidoso y de estilo club, que previamente limitaba las opciones de bebidas.",
+      "solution": "Nuestro sistema optimizado opera de manera rápida y eficiente, permitiendo a Cielo ampliar su menú desde opciones básicas hasta una oferta completa de cócteles, sin incrementar la complejidad ni los tiempos de espera."
+    }
   }
 }

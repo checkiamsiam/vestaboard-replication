@@ -34,49 +34,46 @@
   "section_6": {
     "title": "Real-Time Control, Right at Your Fingertips",
     "description": "Monitor your cocktail service from any device.",
-    "features": [
-      {
-        "title": "Live Metrics",
-        "description": "Track pours, monitor inventory, and oversee performance with up-to-the-second data."
-      },
-      {
-        "title": "Effortless Coordination",
-        "description": "Seamlessly syncs with our on-site systems to keep service consistent and efficient."
-      },
-      {
-        "title": "Intuitive Interface",
-        "description": "Designed for quick adoption—simple enough to learn in minutes, powerful enough for detailed insights."
-      },
-      {
-        "title": "Data-Driven Decisions",
-        "description": "Spot trends, refine offerings, and cut waste using actionable analytics."
-      }
-    ],
+
+    "feature_1": {
+      "title": "Live Metrics",
+      "description": "Track pours, monitor inventory, and oversee performance with up-to-the-second data."
+    },
+    "feature_2": {
+      "title": "Effortless Coordination",
+      "description": "Seamlessly syncs with our on-site systems to keep service consistent and efficient."
+    },
+    "feature_3": {
+      "title": "Intuitive Interface",
+      "description": "Designed for quick adoption—simple enough to learn in minutes, powerful enough for detailed insights."
+    },
+    "feature_4": {
+      "title": "Data-Driven Decisions",
+      "description": "Spot trends, refine offerings, and cut waste using actionable analytics."
+    },
     "conclusion": "With the Elyxm Mobile Web App, you have everything you need to deliver an exceptional event—no guesswork required."
   },
   "section_7": {
     "title": "Meet Our Pioneer Clients",
-    "clients": [
-      {
-        "name": "GastroMarket",
-        "challenge": "Their in-house mixology needed a way to experiment with innovative cocktail recipes tailored to a dynamic menu, all without sacrificing quality or consistency when the mixologist wasn't on-site.",
-        "solution": "By combining our advanced dispensing technology with a robust recipe library, Gastro Market can effortlessly introduce new, on-trend cocktails at scale—ensuring every drink meets the same high standard, even in the mixologist’s absence."
-      },
-      {
-        "name": "Santo Pecado Events and Concerts",
-        "challenge": "Delivering a high-end, tailored bar experience during in-house concerts, with beverages crafted for each artist and audience.",
-        "solution": "We collaborate on event-specific menus, leveraging Elyxm’s precision to serve customized drinks that reflect the concert’s vibe, ensuring every guest feels part of the show."
-      },
-      {
-        "name": "Monica Varela Store Events",
-        "challenge": "Creating a distinct, on-brand beverage experience that complements unique jewelry collections.",
-        "solution": "Elyxm’s customizable recipes allow Monica Varela to pair exclusive cocktails with her designs—enhancing store events through taste and visual synergy."
-      },
-      {
-        "name": "Cielo Events and Concerts",
-        "challenge": "Offering quality cocktails in a loud, club-like atmosphere that previously limited drink options.",
-        "solution": "Our streamlined system operates quickly and efficiently, enabling El Cielo to expand its menu from basic offerings to a full cocktail range—without increasing complexity or wait times."
-      }
-    ]
+    "client_1": {
+      "name": "GastroMarket",
+      "challenge": "Their in-house mixology needed a way to experiment with innovative cocktail recipes tailored to a dynamic menu, all without sacrificing quality or consistency when the mixologist wasn't on-site.",
+      "solution": "By combining our advanced dispensing technology with a robust recipe library, Gastro Market can effortlessly introduce new, on-trend cocktails at scale—ensuring every drink meets the same high standard, even in the mixologist’s absence."
+    },
+    "client_2": {
+      "name": "Santo Pecado Events and Concerts",
+      "challenge": "Delivering a high-end, tailored bar experience during in-house concerts, with beverages crafted for each artist and audience.",
+      "solution": "We collaborate on event-specific menus, leveraging Elyxm’s precision to serve customized drinks that reflect the concert’s vibe, ensuring every guest feels part of the show."
+    },
+    "client_3": {
+      "name": "Monica Varela Store Events",
+      "challenge": "Creating a distinct, on-brand beverage experience that complements unique jewelry collections.",
+      "solution": "Elyxm’s customizable recipes allow Monica Varela to pair exclusive cocktails with her designs—enhancing store events through taste and visual synergy."
+    },
+    "client_4": {
+      "name": "Cielo Events and Concerts",
+      "challenge": "Offering quality cocktails in a loud, club-like atmosphere that previously limited drink options.",
+      "solution": "Our streamlined system operates quickly and efficiently, enabling El Cielo to expand its menu from basic offerings to a full cocktail range—without increasing complexity or wait times."
+    }
   }
 }
