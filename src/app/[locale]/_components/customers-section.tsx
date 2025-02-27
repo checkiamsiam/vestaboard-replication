@@ -67,7 +67,10 @@ export default function CustomerSection() {
         </div>
       </div>
       <div className="relative  min-h-[60vh]">
-        <div className="overflow-hidden sm:ml-[max(1rem,calc((100%-85rem)/2))]" ref={emblaRef}>
+        <div
+          className="overflow-hidden sm:ml-[max(1rem,calc((100%-85rem)/2))]"
+          ref={emblaRef}
+        >
           <div className="flex gap-6 ">
             {clients?.map((customer, i) => (
               <div
@@ -75,20 +78,35 @@ export default function CustomerSection() {
                 className={`bg-transparent border-0 pl-5  lg:flex-[0_0_380px] sm:flex-[0_0_210px] flex-[0_0_95%] justify-center items-center `}
               >
                 <div className="relative aspect-[4/4] mb-4">
-                  <Image src={customer?.image} alt="placeholder" fill className="object-cover rounded-lg" />
+                  <Image
+                    src={customer?.image}
+                    alt="placeholder"
+                    fill
+                    className="object-cover rounded-lg"
+                  />
                 </div>
-                <h3 className="text-background font-bold mb-2">{customer.challenge}</h3>
-                <div className="flex gap-2 flex-wrap text-xs">{customer.solution}</div>
+                <h3 className="text-background font-bold mb-2">
+                  {customer.challenge}
+                </h3>
+                <div className="flex gap-2 flex-wrap text-xs text-gray-600">
+                  {customer.solution}
+                </div>
               </div>
             ))}
           </div>
         </div>
 
         <div className="container mx-auto flex justify-between items-center sm:px-10 absolute lg:top-1/3 sm:top-[15%] top-[30%] sm:ml-[max(1rem,calc((100%-85rem)/2))]">
-          <button className=" bg-black/60 backdrop-blur-sm rounded-full p-2 flex justify-center items-center" onClick={scrollPrev}>
+          <button
+            className=" bg-black/60 backdrop-blur-sm rounded-full p-2 flex justify-center items-center"
+            onClick={scrollPrev}
+          >
             <ChevronLeft className="size-8 text-foreground" />
           </button>
-          <button className=" bg-black/60 backdrop-blur-sm rounded-full p-2 flex justify-center items-center" onClick={scrollNext}>
+          <button
+            className=" bg-black/60 backdrop-blur-sm rounded-full p-2 flex justify-center items-center"
+            onClick={scrollNext}
+          >
             <ChevronRight className="size-8 text-foreground" />
           </button>
         </div>

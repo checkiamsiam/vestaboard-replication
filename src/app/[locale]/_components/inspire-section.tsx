@@ -41,20 +41,34 @@ export function InspireSection() {
             {t("title")}
           </h2>
           <div className="flex justify-end items-center">
-            <p className="lg:text-lg  leading-relaxed text-background font-light lg:max-w-sm max-md:text-center">{t("description")}</p>
+            <p className="lg:text-lg  leading-relaxed text-gray-600 font-light lg:max-w-sm max-md:text-center">
+              {t("description")}
+            </p>
           </div>
         </div>
 
         <div className="grid gap-10 sm:grid-cols-2">
           {cards.map((card) => (
-            <div key={card.id} className="group relative overflow-hidden rounded-2xl bg-secondary transition-all hover:shadow-lg">
+            <div
+              key={card.id}
+              className="group relative overflow-hidden rounded-2xl bg-secondary transition-all hover:shadow-lg"
+            >
               <div className="aspect-square relative">
-                <Image src={card.image} alt="Vestaboard display in a modern home setting" fill className="object-cover" />
+                <Image
+                  src={card.image}
+                  alt="Vestaboard display in a modern home setting"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="md:p-10 p-5 flex max-md:flex-col">
                 <div className="md:w-2/3">
-                  <h3 className="mb-2 md:text-4xl text-3xl md:font-light font-bold  ">{card.title}</h3>
-                  <p className="text-lg font-light">{card.description}</p>
+                  <h3 className="mb-2 md:text-4xl text-3xl md:font-light font-bold  ">
+                    {card.title}
+                  </h3>
+                  <p className=" font-light text-gray-600">
+                    {card.description}
+                  </p>
                 </div>
                 <div className="md:w-1/3 md:flex md:items-end md:justify-end max-md:mt-4">
                   <Button

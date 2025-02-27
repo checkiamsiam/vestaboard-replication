@@ -46,7 +46,7 @@ export function NewsCard({
           )}
         </div>
         <div className="flex flex-1 flex-col justify-between p-8">
-          <h3 className="my-8 text-2xl font-normal leading-tight text-primary">
+          <h3 className="my-8 text-xl font-normal leading-tight text-gray-600">
             {title}
           </h3>
           <div className="flex items-center gap-3">

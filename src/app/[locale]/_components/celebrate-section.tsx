@@ -36,8 +36,14 @@ export function CelebrateSection() {
                   <h2 className="mb-6 text-3xl lg:font-light font-bold leading-tight tracking-tight text-background lg:text-6xl ">
                     {t("title")}
                   </h2>
-                  <p className="mb-8 text-lg leading-relaxed text-background font-light">{t("description")}</p>
-                  <NextMoveLink href="#" className="text-background" textClassName="border-background">
+                  <p className="mb-8 text-lg leading-relaxed font-light text-gray-600">
+                    {t("description")}
+                  </p>
+                  <NextMoveLink
+                    href="#"
+                    className="text-background"
+                    textClassName="border-background"
+                  >
                     Shop Now
                   </NextMoveLink>
                 </div>
