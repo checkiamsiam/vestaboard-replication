@@ -1,5 +1,5 @@
+import { Link } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
 import { LinkHTMLAttributes } from "react";
 import { ClassNameValue } from "tailwind-merge";
 
@@ -14,14 +14,7 @@ export function MainNavigationLink({
   href: string;
 } & LinkHTMLAttributes<HTMLAnchorElement>) {
   return (
-    <Link
-      href={href}
-      className={cn(
-        "block   text-foreground hover:text-grey-dark transition-colors",
-        className
-      )}
-      {...rest}
-    >
+    <Link href={href} className={cn("block   text-foreground hover:text-grey-dark transition-colors", className)} {...rest}>
       {children}
     </Link>
   );

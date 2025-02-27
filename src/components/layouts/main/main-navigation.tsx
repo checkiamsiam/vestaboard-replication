@@ -52,7 +52,7 @@ export function MainNavigationInDrawer() {
 
         {/* Additional Links */}
         <div className="space-y-3 font-bold">
-          <MainNavigationLink href="#" className="text-xl">
+          <MainNavigationLink href="/invest" className="text-xl">
             Invest
           </MainNavigationLink>
           <MainNavigationLink href="#" className="text-xl">

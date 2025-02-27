@@ -40,7 +40,7 @@ export default function MainFooter() {
               </MainNavigationLink>
               <MainNavigationLink href="#">FAQs</MainNavigationLink>
               <MainNavigationLink href="#">Developers</MainNavigationLink>
-              <MainNavigationLink href="#">Invest</MainNavigationLink>
+              <MainNavigationLink href="/invest">Invest</MainNavigationLink>
             </nav>
           </div>
 
